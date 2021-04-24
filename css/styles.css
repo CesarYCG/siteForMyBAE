@@ -69,6 +69,15 @@ main{
 	background-color: rgb(248,249,250);
 }
 
+/* Apilacion responsiva, si es menor a 600px, las
+tres columnas se apilaran una encioma de otra*/
+@media screen and (max-width: 600px){
+	.column{
+		width: 100%;
+	}
+}
+
+
 /* FOOTER */
 
 footer{
